@@ -21,12 +21,12 @@ function habilitaEnviar() {
 }
 habilitaEnviar();
 
-// const textArea = document.getElementById('textArea');
-// const spanRestante = document.getElementById('restante');
-// const spanRestanteAuxiliar = parseInt(spanRestante.innerText, 10);
-// textArea.addEventListener('', () => {
-//   spanRestante.innerText = spanRestanteAuxiliar - (textArea.value.length + 1);
-//   if (spanRestante.innerText === '-1') {
-//     spanRestante.innerText = 0;
-//   }
-// });
+const textArea = document.getElementById('textarea');
+const counter = document.getElementById('counter');
+function contaCaracter(event) {
+  const caracter = event.target;
+  const contador = 500 - caracter.value.length;
+  counter.innerText = contador;
+}
+
+textArea.addEventListener('input', contaCaracter);
