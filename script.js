@@ -6,7 +6,7 @@ function alertaBotao() {
   if (email.value === 'tryber@teste.com' && senha.value === '123456') {
     alert('Olá, Tryber!');
   } else {
-    alert('mail ou senha inválidos.');
+    alert('Email ou senha inválidos.');
   }
 }
 
@@ -20,3 +20,13 @@ function habilitaEnviar() {
   });
 }
 habilitaEnviar();
+
+// const textArea = document.getElementById('textArea');
+// const spanRestante = document.getElementById('restante');
+// const spanRestanteAuxiliar = parseInt(spanRestante.innerText, 10);
+// textArea.addEventListener('', () => {
+//   spanRestante.innerText = spanRestanteAuxiliar - (textArea.value.length + 1);
+//   if (spanRestante.innerText === '-1') {
+//     spanRestante.innerText = 0;
+//   }
+// });
