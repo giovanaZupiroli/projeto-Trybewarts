@@ -28,3 +28,13 @@ footer {
   color: white;
   height: 50px;
 }
+
+#form-data {
+  display: none;
+  width: 900px;
+}
+
+#label {
+  display: flex;
+  flex-direction: column;
+}

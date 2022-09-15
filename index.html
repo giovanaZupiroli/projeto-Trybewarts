@@ -27,7 +27,7 @@
         <input type="text" placeholder="Sobrenome" id="input-lastname">
       </div>
       <div>
-        <input type="text" placeholder="Email" id="input-email">
+        <input type="email" placeholder="Email" id="input-email">
         <label for="house">Casa:</label>
         <select name="casa" id="house">
           <option id="gitnoria-house" value="Gitnória">Gitnória</option>
@@ -37,37 +37,39 @@
         </select>
       </div>
       <br>
+     <div id="label">
       <label id="label-family">Qual sua família?</label>
       <label for="front">
-        <input type="radio" name="family" value="Frontend" id="front"> Frontend
+        <input class="family" type="radio" name="family" value="Frontend" id="front"> Frontend
       </label>
       <label for="back">
-        <input type="radio" name="family" value="Backend" id="back"> Backend
+        <input class="family" type="radio" name="family" value="Backend" id="back"> Backend
       </label>
       <label for="fullStack">
-        <input type="radio" name="family" value="FullStack" id="fullStack"> FullStack
+        <input class="family" type="radio" name="family" value="FullStack" id="fullStack"> FullStack
       </label>
+     </div>
       <div>
         <br>
         <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <br>
         <label for="hofs">
-          <input class="subject" type="checkbox" value="HoFs" name="" id="hofs"> HoFs
+          <input class="subject" type="checkbox" value="HoFs" name="subject" id="hofs"> HoFs
         </label>
         <label for="jest">
-          <input class="subject" type="checkbox" value="Jest" name="" id="jest"> Jest
+          <input class="subject" type="checkbox" value="Jest" name="subject" id="jest"> Jest
         </label>
         <label for="promises">
-          <input class="subject" type="checkbox" value="Promises" name="" id="promises"> Promises
+          <input class="subject" type="checkbox" value="Promises" name="subject" id="promises"> Promises
         </label>
         <label for="react">
-          <input class="subject" type="checkbox" value="React" name="" id="react"> React
+          <input class="subject" type="checkbox" value="React" name="subject" id="react"> React
         </label>
         <label for="sql">
-          <input class="subject" type="checkbox" value="SQL" name="" id="sql"> SQL
+          <input class="subject" type="checkbox" value="SQL" name="subject" id="sql"> SQL
         </label>
         <label for="python">
-          <input class="subject" type="checkbox" value="Python" name="" id="python"> Python
+          <input class="subject" type="checkbox" value="Python" name="subject" id="python"> Python
         </label>
       </div>
       <br>
@@ -100,6 +102,37 @@
       <br>
       <button id="submit-btn" type="submit" disabled>Enviar</button>
     </form>
+    <div id="form-data">
+      <label  for="receive-name">Nome:
+        <span id="receive-name"></span>
+      </label>
+      <br>
+      <label  for="receive-mail">Email:
+        <span id="receive-mail"></span>
+      </label>
+      <br>
+      <label  for="receive-house">Casa:
+        <span id="receive-house"></span>
+      </label>
+      <br>
+      <label  for="receive-family">Família:
+        <span id="receive-family"></span>
+      </label>
+      <br>
+      <label  for="receive-subjects">Matérias:
+        <span id="receive-subjects"></span>
+      </label>
+      <br>
+      <label  for="receive-avaliation">Avaliação:
+        <span id="receive-avaliation"></span>
+      </label>
+      <br>
+      <label  for="receive-observation">Observações:
+        <span id="receive-observation"></span>
+      </label>
+
+    </div>
+
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="forms-logo">
   </main>
 
