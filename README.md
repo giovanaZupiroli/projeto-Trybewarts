@@ -1,10 +1,9 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto: Página de Formulário da Escola de Magia de Trybewarts :mage:
+
+Bem-vindo ao projeto da página de formulário da Escola de Magia de Trybewarts! <br/>
+Neste projeto, tive a oportunidade de desenvolver uma página em que os estudantes poderão enviar seus feedbacks sobre a escola, além disso, pude trabalhar em equipe, contando com a ajuda de colegas durante o desenvolvimento e mostrando o espírito de unidade entre as casas de TrybeWarts! 😉 . O tema do projeto é baseado na obra "Harry Potter" de J. K. Rowling, pois a programação pode ser verdadeiramente mágica!
+
+## O que foi desenvolvido 
+
+1. A página contém um header do tipo flex container e com uma cor de fundo personalizada.
+2. O logo de TrybeWarts fica dentro do header, sendo do tipo img.
