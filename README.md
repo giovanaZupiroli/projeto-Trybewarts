@@ -5,5 +5,7 @@ Neste projeto, tive a oportunidade de desenvolver uma página em que os estudant
 
 ## O que foi desenvolvido 
 
-1. A página contém um header do tipo flex container e com uma cor de fundo personalizada.
-2. O logo de TrybeWarts fica dentro do header, sendo do tipo img.
+1. A página contém um header do tipo flex container e com uma cor de fundo personalizada;
+2. O logo de TrybeWarts fica dentro do header, sendo do tipo img;
+3. Um formulário localizado no header que permite realizar o login ao entrar com email e senha e dispara alertas de sucesso ou falha;
+4. O header mostra o título da página;
